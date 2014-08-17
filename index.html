@@ -1,79 +1,441 @@
-<!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Ibeacon : ">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Ibeacon</title>
-  </head>
 
-  <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/codeaholics20140817/ibeacon">View on GitHub</a>
+<!doctype html>
+	<head> 
+		<meta charset="utf-8">
 
-          <h1 id="project_title">Ibeacon</h1>
-          <h2 id="project_tagline"></h2>
+		<title>iBeacon AGO - Proto.io</title>   
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/codeaholics20140817/ibeacon/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/codeaholics20140817/ibeacon/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+			<meta name="HandheldFriendly" content="True">
+			<meta name="MobileOptimized" content="#width#"> 
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+			
+			
+			
+			<meta name="viewport" content="width=device-width, minimum-scale=0.50, maximum-scale=0.50, initial-scale=0.50, user-scalable=no, target-densitydpi=device-dpi" /> 
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+			
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+			<meta name="format-detection" content="telephone=no">
+			
+			
+			<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/branding/apple-touch-icon-retina.png"> <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/branding/apple-touch-icon-ipad.png"/> <link rel="apple-touch-icon-precomposed" href="./assets/branding/apple-touch-icon.png"/> <link rel="shortcut icon" href="./assets/branding/apple-touch-icon.png"> 
+						
+				        <link href="./assets/branding/startup.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+				       
+				        
+				        <link href="./assets/branding/startup-retina.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+				        
+				        
+				        <link href="./assets/branding/startup-568.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+				        
+				        
+				        <link href="./assets/branding/startup-ipad.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
+				        
+				        
+				        <link href="./assets/branding/startup-ipad-landscape.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image">
+				        
+						
+				        <link href="./assets/branding/startup-ipad-retina.png" media="(device-width: 768px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+				        
+				        <link href="./assets/branding/startup-ipad-landscape-retina.png" media="(device-width: 768px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+					
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+			<style>
+				body * {-webkit-text-size-adjust: 100%;}
+			</style>
+		 
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+						
+		
+		<meta http-equiv="cleartype" content="on"> 
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+		
+		
+		
+		
+		
+				
+				
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+				<link rel="stylesheet" href="./stylesheets/player-engine-min.css?5.9.12.0" />
+				<script type="text/javascript" src="./scripts/player-engine-min.js?5.9.12.0"></script>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+				<link type="text/css" href="./libraries/common/components.css" rel="Stylesheet" /> 	
+				<script type="text/javascript" src="./libraries/common/components.js"></script> 
+				
+				
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+				
+						<link type="text/css" href="./libraries/icons/components.css" rel="Stylesheet" /> 	
+						<script type="text/javascript" src="./libraries/icons/components.js"></script> 
+					
+						<link type="text/css" href="./libraries/ios7/components.css" rel="Stylesheet" /> 	
+						<script type="text/javascript" src="./libraries/ios7/components.js"></script> 
+					
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+				<script type="text/javascript" src="./data/data.js"></script> 	
+				
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+				
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Ibeacon maintained by <a href="https://github.com/codeaholics20140817">codeaholics20140817</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+				
+				
+					
+		<style>
+			
+			/* 	annam v5.7.7 removing this because it is interfering with "position fixed" for mpoverlay="1" 
+				http://stackoverflow.com/questions/2637058/positions-fixed-doesnt-work-when-using-webkit-transform
+				hopefully this bug doesnt exist anymore? :/
+			*/
 
-    
+			
+			.landscape, .landscape .prx-page {
+				min-height: 640px;
+			}
+			
+			.portrait, .portrait .prx-page {
+				min-height: 1136px;
+			}
 
-  </body>
-</html>
+			/* MAKE CLICK AREA TRANSPARENT */
+			.type-actionarea .inner-rec div {
+				background: none;
+			}
+			
+			.type-actionarea .inner-rec div:before {
+				display: none;
+			}
+			
+			.type-animationtarget {
+				opacity: 0!important;
+				pointer-events: none;
+			}
+			
+			html {
+				background: transparent;
+			}
+			
+			
+			
+			#dragarea { background: transparent; }
+			
+			.hide { display: none!important; }
+			
+			* {
+				outline: none;
+			}
+			
+			.ghost-component {
+				pointer-events: none!important;
+			}
+						
+			
+				#loader {
+					background-image: url(images/editor/loader.gif) !important;
+				}
+			
+			
+			.prx-page {
+				o!verflow: hidden;
+				position: fixed;
+			}
+			
+			#statusbar {
+				position: fixed;
+			}
+		</style>
+		
+			<script type="text/javascript">
+				prx.orientation = window.innerWidth>window.innerHeight?"landscape":"portrait";
+				
+				
+								
+				if (window.screen.height==568) { // iPhone 4 (iPhone5/iOS6)
+					
+					//document.querySelector("meta[name=viewport]").content="width=320.1";
+					document.querySelector("meta[name=viewport]").content="width=320.1, minimum-scale=0.50, maximum-scale=0.50, initial-scale=0.50, user-scalable=no, target-densitydpi=device-dpi";
+				}
+				
+					var sLinkedAssets = [];
+					
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ad125b57b6b9cca8ba974068481a7d09.gif"]="https://ago.net/assets/images/554/maps2013-concourse2.gif";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ad18565701dfef3ce4920fe29002074b.gif"]="https://ago.net/assets/images/554/maps2013-level1.gif";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ad1b3ee6a08f5e36fe88f1ba6d9c8ff6.gif"]="https://ago.net/assets/images/554/maps2013-level2.gif";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ad2046e8b2897a69e95083bb4b8f895f.gif"]="https://ago.net/assets/images/554/maps2013-level3.gif";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ad231e64c1820305ad27124f461e72d1.gif"]="https://ago.net/assets/images/554/maps2013-level4.gif";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ad2620350ad76a40a3fb38b25a5a3c42.gif"]="https://ago.net/assets/images/554/maps2013-level5.gif";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_b1681f6d99159d9dae26c20b57a46cf2.gif"]="http://www.ago.net/assets/images/554/maps2013-legend2.gif";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_b924d969d1990d2ee9fe3e9105528ee6.jpg"]="http://www.ago.net/assets/images/554/african_libation_A-42812.jpg";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ba1c4de4b18986063bea3596a2418336.mp3"]="http://www.fromtexttospeech.com/texttospeech_output_files/0796824001408202438/2868708.mp3";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ba44ecc0b7e61a58e74d80f20250838c.mp3"]="http://freedownloads.last.fm/download/464020484/Tar%2BHani.mp3";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_ba9df6fd94cddb2820591994ece626a2.mp3"]="http://freedownloads.last.fm/download/262938459/Maala%2Bbuga.mp3";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_baff1163d4f6c0bba61cca4de376073f.jpg"]="http://www.ago.net/assets/images/556/25180_LR.jpg";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_bb599ea197ba23d89c5975ad9ceb4f2d.jpg"]="http://www.ago.net/assets/images/556/26304.jpg";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_d16e0517f78d8ac0bf3b34f5a609f4be.jpg"]="http://www.ago.net/assets/images/556/agoid29416.jpg";
+						
+						sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_d5b71f7dccad00e1cdcf741cad2cf3d2.jpg"]="http://2.bp.blogspot.com/-v043-jo_N8Q/Tz2-f3o3FdI/AAAAAAAAFU4/XcK8xOzHFDA/s1600/The+Paris+Salon,+AGO.jpg";
+						
+
+				
+				
+
+				prx.url['account'] = 'https://codeaholics140816.proto.io';
+				prx.url['staticassets'] = 'https://s3.amazonaws.com/gallery.proto.io';
+				
+				
+				
+					prx.device = 'default';
+				
+				
+				prx.device_library = 'ios7';				
+				prx.devices[prx.device] = {
+						name: prx.device
+						,caption: "iPhone 5/5S"
+						,defaultOrientation: 'portrait'
+						,portrait_applies: 1 //new
+						,portrait: [640,1136]
+						,landscape_applies: 1 //new
+						,landscape: [1136,640]
+						,allow_orientation_change: 1 //new
+						,statusbar_skin: 'shared' // new
+						,statusbarheightportrait: 40
+						,statusbarheightlandscape: 40	
+						,navigationbar_skin: 'default' //new
+						,navigationbarheightportrait: 0
+						,navigationbarheightlandscape: 0	
+						
+						,normalportrait: [640,1136]
+						,normallandscape: [1136,640]
+						//,device_uuid: ['f2b0a5a2-27e8-47b3-977a-cc21325d0d37']
+						,device_uuid: 'f2b0a5a2-27e8-47b3-977a-cc21325d0d37'
+										
+				}
+		
+				//log(prx.devices);
+				
+				prx.mobilebrowser = !0; 
+				
+
+				prx.embed = 0;
+
+				
+				prx.filename = '8283036e-5423-4150-9427-e796bd0f8e4b';
+				prx.ron = '0'; // Reviewers LIVE PREVIEW is ON
+				prx.url.devices = 'https://staticprotoio-proto.netdna-ssl.com/devices';
+				prx.save = 'false'; 
+		
+				prx.statusbar = '1';
+				prx.statusbarapplies = '1';		
+		
+				prx.navigationbar = '0';
+				prx.navigationbarapplies = '0';
+				
+				
+				prx.url.static = 'https://staticprotoio-proto.netdna-ssl.com';
+				prx.vup = '1';
+				
+					prx.v = '0';				
+				
+				prx.rl = '1'; 
+				prx.s3b = 'codeaholics140816-92639-proto';
+				prx.projectid = '8283036e-5423-4150-9427-e796bd0f8e4b';
+				prx.initialpageid = false;
+				prx.deviceorientation = 'portrait';
+				prx.export2html = '1';
+				
+				 
+							
+					function getAssetUrl(asset) {
+						var assetType = asset.assetType;
+						var url = asset.url;
+						
+						if (typeof(asset.targetSrc) != "undefined") {
+							url =  './assets/' + asset.targetSrc;	
+						} else {
+							url =  './assets/' + url;
+						}
+						
+						//linked assets
+						if (asset.assetType == "project") {
+							if (typeof(sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_"+asset.fileId]) != "undefined") {	
+								url = sLinkedAssets["p8283036e-5423-4150-9427-e796bd0f8e4b_"+asset.fileId];
+							}
+						}
+						
+						if (asset.assetType == "account") {
+							if (typeof(sLinkedAssets["p_"+asset.fileId]) != "undefined") {	
+								url = sLinkedAssets["p_"+asset.fileId];
+							}
+						}	
+						 
+						return url;
+					}
+				
+				
+				
+				
+				
+				//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);	
+				$(document).ready(function(){
+
+					
+					
+					
+					
+					
+					
+
+					
+					
+
+	
+					prx.inProtoApp = (typeof(getCookie('appbakerIosWrapper')) != "undefined" || typeof(getCookie('protoAppAndroidWrapper')) != "undefined");
+					prx.inProtoIOsApp = (typeof(getCookie('appbakerIosWrapper')) != "undefined");
+					prx.inProtoAndroidApp = (typeof(getCookie('protoAppAndroidWrapper')) != "undefined");
+
+					// STATUSBAR = TOP BAR
+					if (prx.statusbarapplies == true) { // didnt work without  == true!
+						prx.allowstatusbar = true;
+					} else {
+						prx.allowstatusbar = false;										
+					}
+					
+					
+						
+					if (!prx.inProtoApp && prx.allowstatusbar) {
+						// CHECK STATUSBAR ON IOS
+						var _agents = navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad)/g); // iOS
+						if (_agents) {
+							// if in safari, false, if in add to home, true
+							var _standalone = window.navigator.standalone ? true:false;
+							if(_standalone) {
+							 	// ANNAM 5.2.3 for ios7 translucent statusbars
+							 	// if standalone ios, always allow statusbar
+								//prx.allowstatusbar = false;
+								prx.allowstatusbar = true;
+								prx.devices[prx.device].statusbar_skin = 'default';
+								$('body').prepend("<style>.type-ios7-statusbar .ios7-statusbar-inner * { display: none; }</style>");
+							} else {
+						 		
+						 		
+						 		// if not fullscreen then disable statusbar
+						 		if(!($(window).width() == prx.devices[prx.device][prx.orientation][0] && $(window).height() == prx.devices[prx.device][prx.orientation][1])) {
+									prx.allowstatusbar = false;
+						 		}
+						 	}
+						}
+
+						// CHECK STATUSBAR ON ANDROID
+						
+						try {
+							_agents = navigator.userAgent.toLowerCase().match(/(android)/g); // Android					
+							if (_agents) {
+								// if not fullscreen then disable statusbar						
+						 		if(!($(window).width() == prx.devices[prx.device][prx.orientation][0] && $(window).height() == prx.devices[prx.device][prx.orientation][1])) {
+									prx.allowstatusbar = false;
+						 		}
+							}
+						} catch(err) {alert(err)}
+					}
+					
+
+					
+					// NAVIGATION BAR = BOTTOM BAR
+					if (prx.navigationbarapplies) {
+						prx.allownavigationbar = true;
+					} else {
+						prx.allownavigationbar = false;										
+					}
+					
+							
+					var _agents = navigator.userAgent.toLowerCase().match(/(android)/g);
+					if (_agents) {
+						try {
+							if(!($(window).width() == prx.devices[prx.device][prx.orientation][0] && $(window).height() == prx.devices[prx.device][prx.orientation][1])) {
+								prx.allownavigationbar = false;
+					 		} 
+				 		} catch(err) {alert(err)}
+				 		$('body').prepend("<style>.prx-page { position: absolute!important; }</style>");
+					}
+					
+					
+					
+					
+					$('#dragarea').css('width',$(window).width()+'px');
+					$('#dragarea').css('height',$(window).height()+'px');		
+					
+					$(window).resize(function() {
+						$('#dragarea').css('width',$(window).width()+'px');
+						$('#dragarea').css('height',$(window).height()+'px');		
+					})
+					
+
+										
+					
+					 
+					if (typeof(prx.xdata) != "undefined") { 
+						prx.xdata = $.toJSON(prx.xdata);
+					}
+					
+					prx.s3Links = {};
+					
+					prx.loadProject(prx.filename);
+					
+					
+						//MBP.hideUrlBar();
+					
+					
+				});	
+			</script>
+		
+	</head>
+	
+	<body oncontextmenu="return false;" class="player" style="overflow: hidden; width: 640px; height: 1136px;" id="mbd">
+
+		
+		
+		<div id="window-wrapper" style="width: 100%; height: 100%; overflow: hidden; position: relative">
+			<div id="dragarea" style="display:none;"></div>
+			<div id="statusbar"></div>
+			
+			<div class="prx-page" data-role="page" id="p-15" data-id="15"></div> <div class="prx-page" data-role="page" id="p-4" data-id="4"></div> <div class="prx-page" data-role="page" id="p-5" data-id="5"></div> <div class="prx-page" data-role="page" id="p-8" data-id="8"></div> <div class="prx-page" data-role="page" id="p-9" data-id="9"></div> <div class="prx-page" data-role="page" id="p-10" data-id="10"></div> <div class="prx-page" data-role="page" id="p-11" data-id="11"></div> <div class="prx-page" data-role="page" id="p-12" data-id="12"></div> <div class="prx-page" data-role="page" id="p-13" data-id="13"></div> <div class="prx-page" data-role="page" id="p-14" data-id="14"></div> 
+			<div id="navigationbar"></div>
+			
+			
+			<div id="overlay" style="position: absolute; top:40px;left:0px;"></div> <div id="trash" style="position: absolute; left:0px; display: none;"></div> 
+				<div id="loader-wrapper">
+					<div id="loader">
+						<span>Loading...</span>
+					</div>
+				</div>
+			
+		</div>
+
+		
+
+
+		
+		
+		
+	</body>	
+</html> 
